@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+int main()
+{
+	int a,b,c;
+	printf("Enter a:");
+	scanf("%d",&a);
+	printf("Enter b:");
+	scanf("%d",&b);
+	c=(a>b?a:b);
+	printf("The greater among %d and %d is %d",a,b,c);
+	return 0;
+}
